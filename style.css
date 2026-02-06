@@ -341,3 +341,33 @@ body {
 .contact .section-title::after {
     margin: 10px auto 0;
 }
+/* --- Centered Contact Section --- */
+.contact {
+    padding: 100px 10%;
+    background-color: var(--bg-deep);
+}
+
+.contact-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This centers everything horizontally */
+    text-align: center;
+}
+
+.contact-desc {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: var(--text-dim);
+}
+
+.contact-btns {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Helps buttons stack on mobile */
+}
+
+/* Ensure the title underline is centered too */
+.contact .section-title::after {
+    margin: 10px auto 0;
+}
